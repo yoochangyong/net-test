@@ -1,4 +1,11 @@
 /*basics*/
+
+@media screen and (max-width: 756px) {
+  h1 {
+    font-size: 4vw;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +24,7 @@ ol {
 body {
   overflow: hidden;
 }
+
 /*header*/
 header {
   height: 100px;
@@ -42,6 +50,7 @@ header #menu {
 
 header #menu li {
   margin: 0 1rem;
+  color: white;
 }
 
 header #menu li {
@@ -89,10 +98,12 @@ main article p {
   font-size: 4vw;
 }
 
+/*footer*/
 footer {
   position: absolute;
   width: 100%;
   bottom: 0;
   background-color: azure;
   text-align: center;
+  color: aqua;
 }
