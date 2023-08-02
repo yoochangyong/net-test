@@ -1,0 +1,98 @@
+/*basics*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  overflow: hidden;
+}
+/*header*/
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  border-bottom: 1px solid azure;
+  /*z-index 적용위해서는 position fixed는 안됨*/
+  z-index: 100;
+  position: relative;
+}
+
+header h1 {
+}
+
+header h1 a {
+}
+
+header #menu {
+  display: flex;
+}
+
+header #menu li {
+  margin: 0 1rem;
+}
+
+header #menu li {
+}
+
+header .sns {
+  display: flex;
+}
+
+header .sns li {
+  margin: 0 0.5vw;
+}
+
+header .sns li a {
+  color: black;
+}
+
+header .sns li a i {
+}
+
+/*main*/
+
+main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+main video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+main article {
+  position: absolute;
+  left: 6vw;
+  top: 40%;
+  color: white;
+}
+
+main article p {
+  font-size: 4vw;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: azure;
+  text-align: center;
+}
